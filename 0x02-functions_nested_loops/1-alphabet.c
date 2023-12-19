@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - A function to print alphabet followed by new line
+ * print_alphabet - Prints alphabet
  *
  * Return: void
  */
