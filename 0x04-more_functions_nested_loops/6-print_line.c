@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_line - Draws a straight line in the terminal
- * @n: Number of times the charcter __ should be printed
+ * @n: Number of times the charcter _ should be printed
  */
 void print_line(int n)
 {
@@ -16,7 +16,7 @@ void print_line(int n)
 	{
 	for (i = 1 ; i <= n ; i++)
 	{
-	_putchar('__');
+	_putchar('_');
 	}
 	_putchar('\n');
 	}
