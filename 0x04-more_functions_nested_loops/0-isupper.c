@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _isupper - Function checks for uppercase character
- * @c: Check 1
+ * @c: Function prameter
  * Return: 1 on success 0 on failure
  */
 int _isupper(int c)
