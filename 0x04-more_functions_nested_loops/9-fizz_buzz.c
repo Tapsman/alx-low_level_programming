@@ -9,19 +9,19 @@ int main(void)
 
 	for (i = 1 ; 1 <= 100 ; i++)
 	{
-		if ((i % 3 == 0) && (i % 5 != 0))
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("Fizz");
+			printf("%s", "FizzBuzz");
 		}
-		else if ((i % 5 == 0) && (i % 3 != 0))
+		else if (i % 3 == 0)
 		{
-			printf("Buzz");
+			printf("%s", "Fizz");
 		}
-		else if ((i % 3 == 0) && (i % 5 == 0))
+		else if (i % 5 == 0)
 		{
-			printf("FizzBuzz");
+			printf("%s", "Buzz");
 		}
-		else if (i == 1)
+		else
 		{
 			printf("%d", i);
 		}
@@ -29,4 +29,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
