@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - prints numbers from 1 to 100 followed by a new line
- * but for the multiples of three prints Fizz instead of fizzbuzz
+ * but for the multiples of three prints Fizz instead of FizzBuzz
  * and for the multiples of 5 prints Buzz
  * Return: 0 (success)
  */
@@ -12,15 +11,15 @@ int main(void)
 
 	for (i = 0 ; i <= 100 ; i++)
 	{
-		if (i % 3 == 0 && i % 5 != 0)
+		if ((i % 3 == 0) && (i % 5 != 0))
 		{
 			printf("Fizz");
 		}
-		else if (i % 5 == 0 && 1 % 3 != 0)
+		else if ((i % 5 == 0) && (1 % 3 != 0))
 		{
 			printf("Buzz");
 		}
-		else if (i % 3 == 0 && i % 5 == 0)
+		else if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("FizzBuzz");
 		}
@@ -30,6 +29,6 @@ int main(void)
 		}
 	}
 	printf("\n");
-
 	return (0);
+	
 }
