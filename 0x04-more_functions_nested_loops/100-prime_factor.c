@@ -14,7 +14,7 @@ int main(void)
 	{
 	if (number % x == 0)
 	{
-	maxf = number / 2;
+	maxf = number / x;
 	}
 	}
 	printf("%ld\n", maxf);
