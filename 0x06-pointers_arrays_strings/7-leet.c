@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * leet - Encode into 1337 speaker
