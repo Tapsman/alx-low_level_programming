@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * main - Contains the 3 files
  * @argc: Argument count
