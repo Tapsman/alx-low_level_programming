@@ -2,7 +2,7 @@
 #define _HEADER_
 /**
  * struct op - Struct op
- * @p Is the operator
+ * @op: Is the operator
  * @f: The function
  */
 typedef struct op
