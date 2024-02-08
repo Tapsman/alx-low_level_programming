@@ -12,7 +12,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 
 	number = 1;
 	for (t = 1 ; t <= power ; t++)
-		number *= b;
+		number *= base;
 	return (number);
 }
 /**
@@ -34,7 +34,7 @@ void print_binary(unsigned long int n)
 		if (check == divisor)
 		{
 			f = 1;
-			_putchar(1);
+			_putchar('1');
 		}
 		else if (f == 1 || divisor == 1)
 		{
