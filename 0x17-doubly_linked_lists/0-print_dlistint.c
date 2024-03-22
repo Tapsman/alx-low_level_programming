@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_listint - A function that prints all elements
+ * print_dlistint - A function that prints all elements
  * in a dlistint_t
  * @h: Is the head of the list
  * Return: The number of nodes
