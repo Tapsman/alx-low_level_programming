@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Creating a function def island_perimeter"""
+"""A function that returns the perimeter of island in grid"""
 
 def island_perimeter(grid):
-    """This will function to return the perimeter of island in grid"""
     height = len(grid)
-    width = len(grid[0])
+    width = len(grid)
     size = 0
     edges = 0
 
