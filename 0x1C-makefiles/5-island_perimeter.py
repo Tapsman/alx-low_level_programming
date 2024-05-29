@@ -2,7 +2,7 @@
 """Creating a function def island_perimeter"""
 
 def island_perimeter(grid):
-    """This function will then return the perimeter of island in grid"""
+    """This function to return the perimeter of island in grid"""
     height = len(grid)
     width = len(grid[0])
     size = 0
